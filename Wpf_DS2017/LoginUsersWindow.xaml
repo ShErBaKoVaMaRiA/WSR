@@ -1,0 +1,19 @@
+﻿<Window x:Class="Wpf_DS2017.LoginUsersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_DS2017"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Grid>
+        <Image Margin="181,39,181,245" Stretch="Uniform" Source="/DS2017_TP09_color.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="107,259,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox Name="tb_username" HorizontalAlignment="Left" Margin="219,259,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" TextBlock.FontSize="24" Height="32"/>
+        <TextBlock HorizontalAlignment="Left" Margin="107,310,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="tb_password" HorizontalAlignment="Left" Margin="219,310,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" TextBlock.FontSize="24" Height="32"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="212,388,0,0" VerticalAlignment="Top" FontSize="24" Width="130" BorderBrush="Black" Background="White"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="466,388,0,0" VerticalAlignment="Top" FontSize="24" Width="130" BorderBrush="Black" Background="White"/>
+
+    </Grid>
+</Window>

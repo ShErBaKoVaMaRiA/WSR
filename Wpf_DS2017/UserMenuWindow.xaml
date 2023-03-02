@@ -1,0 +1,19 @@
+﻿<Window x:Class="Wpf_DS2017.UserMenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_DS2017"
+        mc:Ignorable="d"
+        Title="UserMenuWindow" Height="450" Width="800">
+    <Grid>
+        <Menu  VerticalAlignment="Top" FontSize="24" Height="43">
+            <MenuItem Header="Exit" FontSize="24"/>
+        </Menu>
+        <TextBlock HorizontalAlignment="Left" Margin="39,68,0,0" Text="Hi [fullname], Welcomw to AMONIC Airlines." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="124,112,0,0" Text="Time spent on system: [hh:mm:ss]" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="499,112,0,0" Text="Number of crashes: [n]" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <DataGrid Margin="39,162,42,30"/>
+
+    </Grid>
+</Window>
